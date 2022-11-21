@@ -8,6 +8,16 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "KinematicBody",
+"class": "Godoton",
+"language": "GDScript",
+"path": "res://juego/player/Godoton.gd"
+} ]
+_global_script_class_icons={
+"Godoton": ""
+}
+
 [application]
 
 config/name="Godoton"
