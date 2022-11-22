@@ -3,8 +3,8 @@ extends SpringArm
 
 ## Atributos Exports
 export var velocidad_mov_camara: float = 0.10
-export var rango_rotacion_camara_x: Vector2= Vector2(-90.0, 30.0)
-export var rango_rotacion_camara_y: Vector2= Vector2(00.0, 360.0) 
+export var rango_rotacion_camara_x: Vector2 = Vector2(-90.0, 30.0)
+export var rango_rotacion_camara_y: Vector2 = Vector2(00.0, 360.0) 
 
 
 
