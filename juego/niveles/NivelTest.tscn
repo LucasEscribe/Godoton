@@ -2,7 +2,7 @@
 
 [ext_resource path="res://juego/bloques/ColumnaBloques.tscn" type="PackedScene" id=1]
 [ext_resource path="res://juego/bloques/BloqueLargo.tscn" type="PackedScene" id=2]
-[ext_resource path="res://juego/player/Player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://juego/player/Godoton.tscn" type="PackedScene" id=3]
 [ext_resource path="res://juego/bloques/BloqueCesped.tscn" type="PackedScene" id=4]
 [ext_resource path="res://juego/bloques/BloqueFinal.tscn" type="PackedScene" id=5]
 [ext_resource path="res://juego/bloques/BloquePendienteMedia.tscn" type="PackedScene" id=6]
@@ -662,9 +662,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.2, -25.2 )
 
 [node name="BloqueLargo" parent="." instance=ExtResource( 2 )]
 
-[node name="Player" parent="." instance=ExtResource( 3 )]
-transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 3.2, 3, 1 )
-
 [node name="Plataformas" type="Spatial" parent="."]
 
 [node name="ColumnaBloques" parent="Plataformas" instance=ExtResource( 1 )]
@@ -699,4 +696,5 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.8, 0, -7 )
 [node name="BloquePendienteMedia" parent="Plataformas" instance=ExtResource( 6 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -20.5, 0, 0 )
 
-[editable path="Player"]
+[node name="Godoton" parent="." instance=ExtResource( 3 )]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 1.5, 0, 0 )
