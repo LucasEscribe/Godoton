@@ -21,10 +21,6 @@ extents = Vector3( 25, 0.001, 25 )
 
 [node name="NivelTest" type="Node"]
 
-[node name="Camera" type="Camera" parent="."]
-transform = Transform( 0.999446, 0.0267436, -0.0197923, -0.0226291, 0.982502, 0.184873, 0.0243902, -0.184322, 0.982563, 3.25836, 4.58277, 5.19322 )
-fov = 73.8819
-
 [node name="Suelo" type="StaticBody" parent="."]
 collision_layer = 5
 collision_mask = 3
@@ -697,4 +693,8 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.8, 0, -7 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -20.5, 0, 0 )
 
 [node name="Godoton" parent="." instance=ExtResource( 3 )]
-transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 1.5, 0, 0 )
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 2, 0.0214938, 0 )
+collision/safe_margin = 3.0
+velocidad_max = Vector2( 7, 30 )
+impulso = 45.0
+fuerza_salto = 15.0
