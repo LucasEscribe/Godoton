@@ -18,17 +18,34 @@ _global_script_classes=[ {
 "class": "Godoton",
 "language": "GDScript",
 "path": "res://juego/player/Godoton.gd"
+}, {
+"base": "Area",
+"class": "Moneda",
+"language": "GDScript",
+"path": "res://juego/items/MonedaDorada.gd"
+}, {
+"base": "Area",
+"class": "PortalNivel",
+"language": "GDScript",
+"path": "res://juego/objetos/Portal.gd"
 } ]
 _global_script_class_icons={
 "ArbolAnimacionPlayer": "",
-"Godoton": ""
+"Godoton": "",
+"Moneda": "",
+"PortalNivel": ""
 }
 
 [application]
 
 config/name="Godoton"
-run/main_scene="res://juego/niveles/NivelTest.tscn"
+run/main_scene="res://juego/menus/MenuPresentacion.tscn"
 config/icon="res://godotin_icon.png"
+
+[autoload]
+
+Eventos="*res://juego/autoloads/Eventos.tscn"
+DatosJuego="*res://juego/autoloads/DatosJuego.gd"
 
 [display]
 

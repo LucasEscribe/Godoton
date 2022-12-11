@@ -21,7 +21,7 @@ func _unhandled_input(event: InputEvent) -> void:
 		rotation_degrees.x = clamp(
 			rotation_degrees.x,
 			rango_rotacion_camara_x.x,
-			rango_rotacion_camara_x.y			
+			rango_rotacion_camara_x.y
 		)
 
 		# Movimiento alrededor del eje Y (derecha/izquierda)
